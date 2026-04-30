@@ -1,5 +1,4 @@
 """Ce module implémente le serveur Flask pour la détection d'émotions."""  # ← docstring du fichier
-
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 

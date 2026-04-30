@@ -1,0 +1,61 @@
+[notice] To update, run: pip3 install --upgrade pip
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:24:0: C0301: Line too long (222/100) (line-too-long)
+server.py:27:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:23:12: E0001: Parsing failed: 'unterminated string literal (detected at line 23) (server, line 23)' (syntax-error)
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:11:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+server.py:16:4: W0612: Unused variable 'anger_score' (unused-variable)
+server.py:17:4: W0612: Unused variable 'disgust_score' (unused-variable)
+server.py:18:4: W0612: Unused variable 'fear_score' (unused-variable)
+server.py:19:4: W0612: Unused variable 'joy_score' (unused-variable)
+server.py:20:4: W0612: Unused variable 'sadness_score' (unused-variable)
+server.py:21:4: W0612: Unused variable 'dominant' (unused-variable)
+server.py:30:0: W0101: Unreachable code (unreachable)
+server.py:23:0: E0104: Return outside function (return-outside-function)
+server.py:24:64: E0602: Undefined variable 'anger_score' (undefined-variable)
+server.py:25:18: E0602: Undefined variable 'disgust_score' (undefined-variable)
+server.py:25:43: E0602: Undefined variable 'fear_score' (undefined-variable)
+server.py:26:14: E0602: Undefined variable 'joy_score' (undefined-variable)
+server.py:26:41: E0602: Undefined variable 'sadness_score' (undefined-variable)
+server.py:27:31: E0602: Undefined variable 'dominant' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.84/10, -6.84)
+
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:32:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.95/10 (previous run: 0.00/10, +8.95)
+
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.47/10 (previous run: 8.95/10, +0.53)
+
+theia@theiadocker-loic1:/home/project/final_project$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.47/10, +0.53)
+
+theia@theiadocker-loic1:/home/project/final_project$ 
